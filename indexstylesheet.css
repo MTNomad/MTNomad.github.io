@@ -1,0 +1,24 @@
+h1 {text-align: center;
+    font-size: 40px;
+}
+#bb1 {
+    padding-left: 20pc;
+}
+#selfie {
+    float: left;
+    padding-right: 40px;
+}
+#p1 {
+    height: 170px;
+    width: 1000px;
+    word-wrap: normal;
+}
+#p2 {    
+    width: 1060px;
+    word-wrap: normal;
+}
+#resources {
+    text-align: center;
+    padding-right: 20pc;
+
+}
