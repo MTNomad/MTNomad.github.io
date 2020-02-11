@@ -1,12 +1,11 @@
-h1 {text-align: center;
-    font-size: 40px;
-}
-#bb1 {
-    padding-left: 20pc;
+body {
+    max-width: 960px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 #selfie {
     float: left;
-    padding-right: 40px;
 }
 #p1 {
     height: 170px;
@@ -16,9 +15,19 @@ h1 {text-align: center;
 #p2 {    
     width: 1060px;
     word-wrap: normal;
+    text-align: center;
 }
 #resources {
     text-align: center;
-    padding-right: 20pc;
 
+}
+#resourceList {
+    text-align: center;
+    list-style: none;
+    padding-right: 2pc;
+}
+#techlist {
+    list-style: none;
+    text-align: center;
+    padding-right: 2pc;
 }
