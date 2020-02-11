@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    $("div").
     $("#animateBtn").click(function() {
         $(bigheading).animate({ 
             fontSize: "3em", 
