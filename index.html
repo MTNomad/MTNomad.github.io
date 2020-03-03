@@ -1,79 +1,54 @@
 <!DOCTYPE html>
-<html lang=en>
-
+<html lang="en">
 <head>
-    <title>My Mobile Web App Development Bio</title>
-    <link rel="stylesheet" type="text/css" href="indexstylesheet.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script>$(document).ready(function() {
-    $("#animateBtn").click(function() {
-        $(bigheading).animate({ 
-            fontSize: "3em", 
-         }, 1500 );
-         $(bigheading).animate({ 
-            fontSize: "40px", 
-         }, 1500 );
-         setTimeout(
-            function() 
-            {
-                $(bigheading).css('color', 'blue');
-            }, 3000);
-        $(selfie).css({"border-color": "#b4b4b4", 
-        "border-weight":"5px", 
-        "border-style":"solid"});
-    });
-});</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Wild Life</title>
 </head>
 
 <body>
-    <header>
-        <h1 id="bigheading" class="mainHeader">CIS 128 Mobile Web App Development</h1>
-    </header>
-    <div id="bb1">
-        <img id="selfie" src="../Web&AppDev/Selfie.png" width="150" height="150" alt="" />
-        <p id="p1">Hello! My name is Michael Tanner. Most people call me Mike. I'm 30 years old and love spending time outdoors with family. I've spent a good deal of time working with computers in my various lines of work.</p>
-    </div>
-    <div id="bb2">
-        <p id="p2">While I've learned much over the years about computers and have used them to solve many problems, I've never received any formal education in programming. I look forward to learning from this class to help solidify my understanding of computer science.</p>
-    </div>
-    <div>
-        <h1 id="Technologies">
-	Technologies for this class
-	</h1>
-    </div>
-    <div>
-        <ul id=techlist>
-            <li>
-                HTML
-            </li>
-            <li>
-                CSS
-            </li>
-            <li>
-            	JavaScript
-            </li>
+    <Header id="header" class="grid">
+        <div class="HeaderContent">
+            <h1>Welcome to Wildlife for Life</h1>
+            <h2>We fight for life</h2>
+            
+            <ul class="navigation">
+                <li><a href="index.html" title="home">Home</a></li>
+                <li><a href="#" title="contact">Contact Us</a></li>
+            </ul>
+    </Header>
+    
+    <div class="row">
+    <div class="col-2 sidebar-left">
+    	<h3>Favorite links</h3>
+    	<ul class="list">
+        	<li><a href="http://wildlife-museum.org/" title="Lindsay Wildlife Museum">Lindsay Wildlife Museum</a></li>
+            <li><a href="http://www.worldwildlife.org/home-full.html" title="WWF">WWF</a></li>
         </ul>
+        
+        <h3>News</h3>
+        <p>Aug/2012 - About forty Blue whales have been sighted swimming in waters 15 miles west of La Jolla.</p>
+        <p>Aug/2012 - Three tigers have been found dead in India in the last week. The carcass of a ten year old tigress was found in Kanha Tiger Reserve, and another female tiger was found in a very poor state of health in the same reserve. Unfortunately vets could not save her.</p>
     </div>
-    <div>
-        <h1 id="resources">
-			Resources
-		</h1>
+    <div class="col-5 right">
+        
+        <h1>The Wild Life is great</h1><br />
+        <p>Wild Life includes all non-domesticated plants, animals and other organisms.</p>
+        <p>Wildlife can be found in all ecosystems. Deserts, forests, rain forests, plains, grasslands, and other areas including the most developed urban sites, all have distinct forms of wildlife.</p><br />
+        
+        <h3>Destruction</h3><br />
+        <img src="images/img1.jpg" class="float-left" alt="alternative text.  This text is for screen readers or in the instance an image can't load, a description of what should have been here." /><p>Exploitation of wild populations has been a characteristic of modern man since our exodus from Africa 130,000 – 70,000 years ago. The rate of extinctions of entire species of plants and animals across the planet has been so high in the last few hundred years it is widely believed that we are in the sixth great extinction event on this planet</p><br />
+        
+        <h3 class="clear">Food, pets, and traditional medicines</h3><br />
+        <p>Anthropologists believe that the Stone Age people and hunter-gatherers relied on wildlife, both plants and animals, for their food. In fact, some species may have been hunted to extinction by early human hunters.</p>
     </div>
-    <div>
-        <dl id=resourceList>
-            <dt>
-				<a href="www.w3schools.com">www.w3schools.com</a>
-			</dt>
-				<dd>- a great reference for learning developers</dd>
-            <dt>
-				<a href="www.youtube.com">www.youtube.com</a>
-			</dt>
-            	<dd>- another great reference for learning developers</dd>
-        	</dl>
+    
+    
+    <br class="clear" />  <!-- this code is clearing the floats from the above divs.  See what happens when you take it away to really learn what clear does... -->
     </div>
-    <div>
-        <button id="animateBtn" type="submit" value="release"> Animate!</button>
+    <div id="footer">
+        <p>We believe that we can all live together in Planet Earth</p>
     </div>
 </body>
-
 </html>
