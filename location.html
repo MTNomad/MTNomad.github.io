@@ -10,7 +10,7 @@
       
         <title>Location</title>
         <script>
-            $function showPosition() {
+            function showPosition() {
             if(navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(function(position) {
                     var positionInfo = "CURRENT LOCATION: (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
