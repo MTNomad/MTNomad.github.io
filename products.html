@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8" />
+
+    <title>Products</title>
+
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+    <h1>Products</h1>
+    </div>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+    </div>
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("navbar.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+    <div> <div class='container-fluid'>
+    <div class='row'>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#alltoys"> <i class="fa fa-info-circle" aria-hidden="true"></i> Our Toys</button>
+    <div id="alltoys" class="collapse">
+        
+        <!--First Button-->
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#toy1"> <i class="fa fa-info-circle" aria-hidden="true"></i> Toy 1</button>
+            <div id="toy1" class="collapse">
+                <div class='col-sm-4'>
+                    <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572027183-best-kids-toys-disney-pixar-buzz-lightyear-1572027157.jpg" alt="ToyDoll"width="150" height="150">
+                Buzz Lightyear Action Figure            
+                </div>
+                </div>
+                    
+        <!--Second Button--> 
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#toy2"> <i class="fa fa-info-circle" aria-hidden="true"></i> Toy 2</button>
+            <div id="toy2" class="collapse">
+                <div class='col-sm-4'>
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gh-best-toys-every-age-index-1572461597.png?crop=0.492xw:0.984xh;0,0&resize=640:*" alt="TeddyBear"width="150" height="150">
+                    Mr Potato Head          
+                </div>
+            </div>
+        <!--Third Button-->    
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#toy3">  <i class="fa fa-info-circle" aria-hidden="true"></i> Toy 3</button>
+            <div id="toy3" class="collapse">
+                <div class='col-sm-4'>
+                    <img src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6101036512835?$pdpXL2x$&fmt=webp&qlt=70" alt="abcblocks"width="150" height="150">
+                    Interactive Talking Woody Action Figure        
+                </div>
+             </div>
+                    
+             </div>
+        
+         </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+</body>
